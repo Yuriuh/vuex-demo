@@ -1,5 +1,17 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <p>map apis</p>
+    <count-two></count-two>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import CountTwo from '../components/CountTwo'
+export default {
+  name: 'about',
+  components: {
+    CountTwo
+  }
+}
+</script>
